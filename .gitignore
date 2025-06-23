@@ -1,0 +1,30 @@
+# PHP
+*.log
+config/database.php
+.env
+
+# XAMPP
+/logs/
+/tmp/
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Cache
+cache/*
+!cache/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vendor
+vendor/
+node_modules/
